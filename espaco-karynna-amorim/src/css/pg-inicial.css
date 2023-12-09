@@ -1,0 +1,81 @@
+.container-principal{
+    display: flex;
+    flex-direction: row;
+    margin: 35px 8px 8px 8px;
+    min-height: max-content;
+    height: 100%;
+}
+
+.container-secundario{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    width: 65%;
+}
+
+.container-secundario > div > p{
+    width: 80%;
+    height: 150px;
+    line-height: 1.5em;
+    margin-left: 80px;
+}
+
+.container-secundario > div > img{
+    width: 750px;
+}
+
+
+.container-menus{
+    margin-top: 30px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F2EBE5;
+    margin-left: 3%;
+    height: 80vh;
+}
+
+.container-menus > span{
+    margin-top: 30px;
+    width: 90%;
+    height: 7vh;
+    border: 1px solid #A69F99;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container-menus > span:hover{
+    border: 1px solid #17364B;
+}
+
+.container-menus > span > a{
+
+    color: #443E38;
+}
+
+.cotainer-icones{
+    border: 8px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container-icones > a {
+    align-items: center;
+}
+
+.container-icones > a > img{
+    width: 40px;
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+    margin-top: 40px;
+}
+
+.container-icones > a > img:hover{
+    width: 42px;
+}
